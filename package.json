@@ -1,0 +1,23 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Application to take in orders from customers and deplete inventory stock from the store.",
+  "main": "bamazon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flowmar/Bamazon.git"
+  },
+  "author": "Omar Imam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flowmar/Bamazon/issues"
+  },
+  "homepage": "https://github.com/flowmar/Bamazon#readme",
+  "dependencies": {
+    "inquirer": "^3.0.6",
+    "mysql": "^2.13.0"
+  }
+}
