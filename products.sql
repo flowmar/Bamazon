@@ -1,12 +1,15 @@
+-- Create a database called 'Bamazon'
+CREATE DATABASE Bamazon;
 -- Create a table called 'products'
 CREATE TABLE products
-
+-- Add columns for item id, product name, department name, price and stock quantity
 (item_id INTEGER(2) AUTO_INCREMENT NOT NULL PRIMARY KEY,
 product_name VARCHAR(15) NOT NULL,
 department_name VARCHAR(15) NOT NULL,
 price REAL(4, 2) NOT NULL,
 stock_quantity INTEGER(2));
 
+-- Insert rows into table to add individual products
 INSERT INTO products
 (item_id, product_name, department_name, price, stock_quantity)
 VALUES
@@ -21,4 +24,5 @@ VALUES
 (9, 'Deodorant', 'Pharmacy', 4.99, 7),
 (10, 'Stylus', 'Electronics', 5.99, 9)
 
+-- Show all columns from 'products' table
 SELECT * FROM products;
